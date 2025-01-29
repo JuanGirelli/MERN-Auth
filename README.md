@@ -5,13 +5,15 @@ This is a full-stack authentication system built using the MERN (MongoDB, Expres
 
 ![Home Page Screenshot](./assets/HomePage.png)
 
-![Login Page Screenshot](./assets/Login.png)
+![Login Page Screenshot](./assets/LoginPage.png)
 
-![Tickets Page Screenshot](./assets/Tickets.png)
+![Signup Page Screenshot](./assets/RegisterPage.png)
 
-![Edit Tickets Page Screenshot](./assets/EditTicket.png)
+![Home seacrh Page Screenshot](./assets/OptionSB.png)
 
-![Create Tickets Page Screenshot](./assets/CreateTicket.png)
+![Saved Books](./assets/SavedBooksPage.png)
+
+![Delet Saved Books](./assets/DeleteBooks.png)
 
 ## **Table of Contents**
 - [Description](#description)
@@ -22,6 +24,7 @@ This is a full-stack authentication system built using the MERN (MongoDB, Expres
 - [Database Schema](#database-schema)
 - [Seeds](#seeds)
 - [API Endpoints](#api-endpoints)
+- [Walkthrough Video](#walkthrough-video)
 - [DeployWeb](#depolyweb)
 - [License](#license)
 
@@ -112,8 +115,12 @@ npm run seed
 ### Protected Routes
 - **GET** `/api/protected` - Fetches protected user data (requires authentication).
 
+## Walkthrough Video
+
+[Watch the walkthrough video](https://drive.google.com/file/d/16QDp7CGrm-l3IBerdeqQzrc2WWzS8ipf/view)
+
 ## DeployWeb
-- **Render Live Website:** [Deployed Application](https://your-render-url.com)
+- **Render Live Website:** [Deployed Application](https://mern-auth-on7e.onrender.com)
 
 ## License
 This project is licensed under the **MIT License**.
