@@ -1,5 +1,6 @@
 import express from 'express';
 import path from 'node:path';
+import { fileURLToPath } from 'url'; // Import to manually define __dirname
 import type { Request, Response } from 'express';
 import { ApolloServer } from '@apollo/server';
 import { expressMiddleware } from '@apollo/server/express4';
@@ -9,6 +10,10 @@ import db from './config/connection.js';
 import cors from 'cors'; // Import CORS middleware
 
 const PORT = process.env.PORT || 3001;
+
+// Manually define __dirname since it's not available in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Create Apollo Server
 const server = new ApolloServer({
